@@ -7,7 +7,7 @@
  */
 'use strict';
 
-const net = require('net');
+var net = require('net');
 
 // Create a socket that connects to the consumer
 var socket = new net.Socket();

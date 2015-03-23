@@ -5,6 +5,13 @@
    "name": "João Oliveira"
  },
  "version": "0.0.1",
+ "scripts": {
+   "start": "node_modules/.bin/supervisor app",
+   "test": "node_modules/.bin/mocha -w"
+ },
  "dependencies": {},
- "devDependencies": {}
+ "devDependencies": {
+   "mocha": "*",
+   "should": ">= 0.0.1"
+ }
 }

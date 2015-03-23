@@ -7,7 +7,7 @@
  */
 'use strict';
 
-const net = require('net');
+var net = require('net');
 
 // Create the consumer
 var consumer = net.createServer(function(conn) {
