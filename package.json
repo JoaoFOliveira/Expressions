@@ -1,0 +1,10 @@
+{
+ "name": "Expressions",
+ "description": "Producer/Consumer system",
+ "author": {
+   "name": "João Oliveira"
+ },
+ "version": "0.0.1",
+ "dependencies": {},
+ "devDependencies": {}
+}
