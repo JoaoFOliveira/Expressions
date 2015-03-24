@@ -1,15 +1,27 @@
-describe('consumer', function () {
+/**
+ * Unit testing 
+ *
+ * @author João Fontes Oliveira <@Joao_Oliveira>
+ * @March 2015
+ *
+ */
 
-	var net = require('net'),
-		socket = new net.Socket();
+// var consumer = require('../lib/consumer');
 
-	describe('Test consumer heartbeat', function () {
-	    it('should return 200', function (done) {
-	      socket.connect(8084, 'localhost', function (res) {
-	      	res.statusCode.should.equal(200);
-	        done();
-	      });
-	    });
-  	});
+describe('server response', function () {
+  // before(function () {
+  //   consumer.listen(8084);
+  // });
+
+  // after(function () {
+  //   consumer.close();
+  // });
+
+  it('should return ready message', function (done) {
+    request.get('http://localhost:8084', function (err, res, body){
+      expect(res.body).to.equal('Consumer says: Bring on the expressions!');
+      done();
+    });
+  });
 
 });

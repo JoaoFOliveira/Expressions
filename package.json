@@ -12,6 +12,8 @@
  "dependencies": {},
  "devDependencies": {
    "mocha": "*",
-   "should": ">= 0.0.1"
+   "should": ">= 0.0.1",
+   "chai": "*",
+   "request": "*"
  }
 }
